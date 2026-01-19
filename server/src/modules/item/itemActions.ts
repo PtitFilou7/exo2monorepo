@@ -56,5 +56,4 @@ const add: RequestHandler = async (req, res, next) => {
     next(err);
   }
 };
-
 export default { browse, read, add };
